@@ -1,0 +1,123 @@
+.bg
+{
+height: 100%;
+width: 100%;
+background-image: url(https://image.shutterstock.com/image-photo/salad-tomatoes-greens-dressing-oil-260nw-269131160.jpg);
+background-position:initial;
+background-size: cover;
+position:absolute;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+p{
+    font-size: larger;
+    text-align: center;
+}
+h1{
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    color: brown;
+    padding: 30px;
+}
+nav{
+    font-size: initial;
+    display: grid;
+    place-items: center;
+    text-decoration-style: solid;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s ease-in;
+}
+nav ul a:hover{
+    background-color: brown;
+    color: whitesmoke;
+}
+h2{
+    font-style: italic;
+    font-size: xx-large;
+}
+h4{
+    font-style: italic;
+}
+.ITEMS{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+.ITEM img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+}
+.ITEM img:hover{
+    transform: scale(1.04);
+}
+
+h3{
+    font: xx-large;
+    font-style: italic;
+}
+table{
+    align-content: center;
+    text-align: center;
+    place-items: center;
+}
+th{
+    font-style: italic;
+}
+button{
+    text-align: right;
+    place-content: right;
+}
+.login{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+    color: black;
+}
+.login h5{
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.login p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.login input{
+    font-size: 15px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.login button{
+    position: center;
+    font-size: 18px;
+    margin: 15px 0;
+    padding: 15px 10px;
+    width: 30%;
+    border-radius: 5px;
+}
